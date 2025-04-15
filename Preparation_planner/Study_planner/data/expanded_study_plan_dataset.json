@@ -1,0 +1,665 @@
+{
+  "placements": {
+    "beginner": [
+      {
+        "topic": "Arrays",
+        "subtopics": [
+          {
+            "name": "Basics",
+            "documentation": "https://example.com/basics-doc",
+            "questions": "https://example.com/basics-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Operations",
+            "documentation": "https://example.com/operations-doc",
+            "questions": "https://example.com/operations-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Sorting",
+            "documentation": "https://example.com/sorting-doc",
+            "questions": "https://example.com/sorting-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Searching",
+            "documentation": "https://example.com/searching-doc",
+            "questions": "https://example.com/searching-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Linked Lists",
+        "subtopics": [
+          {
+            "name": "Singly Linked List",
+            "documentation": "https://example.com/singly-linked-list-doc",
+            "questions": "https://example.com/singly-linked-list-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Doubly Linked List",
+            "documentation": "https://example.com/doubly-linked-list-doc",
+            "questions": "https://example.com/doubly-linked-list-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Circular Linked List",
+            "documentation": "https://example.com/circular-linked-list-doc",
+            "questions": "https://example.com/circular-linked-list-questions",
+            "estimated_time": 2
+          }
+        ]
+      },
+      {
+        "topic": "Stacks & Queues",
+        "subtopics": [
+          {
+            "name": "Stack Basics",
+            "documentation": "https://example.com/stack-basics-doc",
+            "questions": "https://example.com/stack-basics-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Queue Basics",
+            "documentation": "https://example.com/queue-basics-doc",
+            "questions": "https://example.com/queue-basics-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Priority Queue",
+            "documentation": "https://example.com/priority-queue-doc",
+            "questions": "https://example.com/priority-queue-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Strings",
+        "subtopics": [
+          {
+            "name": "String Manipulation",
+            "documentation": "https://example.com/string-manipulation-doc",
+            "questions": "https://example.com/string-manipulation-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Pattern Matching",
+            "documentation": "https://example.com/pattern-matching-doc",
+            "questions": "https://example.com/pattern-matching-questions",
+            "estimated_time": 2
+          }
+        ]
+      },
+      {
+        "topic": "Recursion",
+        "subtopics": [
+          {
+            "name": "Basic Recursion",
+            "documentation": "https://example.com/basic-recursion-doc",
+            "questions": "https://example.com/basic-recursion-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Backtracking",
+            "documentation": "https://example.com/backtracking-doc",
+            "questions": "https://example.com/backtracking-questions",
+            "estimated_time": 2
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "topic": "Trees",
+        "subtopics": [
+          {
+            "name": "Binary Trees",
+            "documentation": "https://example.com/binary-trees-doc",
+            "questions": "https://example.com/binary-trees-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Binary Search Trees",
+            "documentation": "https://example.com/binary-search-trees-doc",
+            "questions": "https://example.com/binary-search-trees-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "AVL Trees",
+            "documentation": "https://example.com/avl-trees-doc",
+            "questions": "https://example.com/avl-trees-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Heap",
+            "documentation": "https://example.com/heap-doc",
+            "questions": "https://example.com/heap-questions",
+            "estimated_time": 1
+          }
+        ]
+      },
+      {
+        "topic": "Graphs",
+        "subtopics": [
+          {
+            "name": "Graph Representations",
+            "documentation": "https://example.com/graph-representations-doc",
+            "questions": "https://example.com/graph-representations-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "BFS & DFS",
+            "documentation": "https://example.com/bfs-&-dfs-doc",
+            "questions": "https://example.com/bfs-&-dfs-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Shortest Path Algorithms",
+            "documentation": "https://example.com/shortest-path-algorithms-doc",
+            "questions": "https://example.com/shortest-path-algorithms-questions",
+            "estimated_time": 2
+          }
+        ]
+      },
+      {
+        "topic": "Dynamic Programming",
+        "subtopics": [
+          {
+            "name": "Memoization",
+            "documentation": "https://example.com/memoization-doc",
+            "questions": "https://example.com/memoization-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Tabulation",
+            "documentation": "https://example.com/tabulation-doc",
+            "questions": "https://example.com/tabulation-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Knapsack",
+            "documentation": "https://example.com/knapsack-doc",
+            "questions": "https://example.com/knapsack-questions",
+            "estimated_time": 1
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "topic": "Graph Algorithms",
+        "subtopics": [
+          {
+            "name": "Dijkstra",
+            "documentation": "https://example.com/dijkstra-doc",
+            "questions": "https://example.com/dijkstra-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Floyd Warshall",
+            "documentation": "https://example.com/floyd-warshall-doc",
+            "questions": "https://example.com/floyd-warshall-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Bellman Ford",
+            "documentation": "https://example.com/bellman-ford-doc",
+            "questions": "https://example.com/bellman-ford-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Advanced DP",
+        "subtopics": [
+          {
+            "name": "Bitmask DP",
+            "documentation": "https://example.com/bitmask-dp-doc",
+            "questions": "https://example.com/bitmask-dp-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Matrix Chain Multiplication",
+            "documentation": "https://example.com/matrix-chain-multiplication-doc",
+            "questions": "https://example.com/matrix-chain-multiplication-questions",
+            "estimated_time": 1
+          }
+        ]
+      },
+      {
+        "topic": "Advanced Data Structures",
+        "subtopics": [
+          {
+            "name": "Segment Trees",
+            "documentation": "https://example.com/segment-trees-doc",
+            "questions": "https://example.com/segment-trees-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Fenwick Trees",
+            "documentation": "https://example.com/fenwick-trees-doc",
+            "questions": "https://example.com/fenwick-trees-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Disjoint Set Union",
+            "documentation": "https://example.com/disjoint-set-union-doc",
+            "questions": "https://example.com/disjoint-set-union-questions",
+            "estimated_time": 3
+          }
+        ]
+      }
+    ]
+  },
+  "gate": {
+    "beginner": [
+      {
+        "topic": "Mathematics",
+        "subtopics": [
+          {
+            "name": "Linear Algebra",
+            "documentation": "https://example.com/linear-algebra-doc",
+            "questions": "https://example.com/linear-algebra-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Probability",
+            "documentation": "https://example.com/probability-doc",
+            "questions": "https://example.com/probability-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Discrete Math",
+            "documentation": "https://example.com/discrete-math-doc",
+            "questions": "https://example.com/discrete-math-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Programming",
+        "subtopics": [
+          {
+            "name": "C Basics",
+            "documentation": "https://example.com/c-basics-doc",
+            "questions": "https://example.com/c-basics-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Data Structures",
+            "documentation": "https://example.com/data-structures-doc",
+            "questions": "https://example.com/data-structures-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Algorithms",
+            "documentation": "https://example.com/algorithms-doc",
+            "questions": "https://example.com/algorithms-questions",
+            "estimated_time": 1
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "topic": "Theory of Computation",
+        "subtopics": [
+          {
+            "name": "Finite Automata",
+            "documentation": "https://example.com/finite-automata-doc",
+            "questions": "https://example.com/finite-automata-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Regular Expressions",
+            "documentation": "https://example.com/regular-expressions-doc",
+            "questions": "https://example.com/regular-expressions-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Turing Machines",
+            "documentation": "https://example.com/turing-machines-doc",
+            "questions": "https://example.com/turing-machines-questions",
+            "estimated_time": 2
+          }
+        ]
+      },
+      {
+        "topic": "Operating Systems",
+        "subtopics": [
+          {
+            "name": "Process Management",
+            "documentation": "https://example.com/process-management-doc",
+            "questions": "https://example.com/process-management-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Memory Management",
+            "documentation": "https://example.com/memory-management-doc",
+            "questions": "https://example.com/memory-management-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "File Systems",
+            "documentation": "https://example.com/file-systems-doc",
+            "questions": "https://example.com/file-systems-questions",
+            "estimated_time": 2
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "topic": "Computer Networks",
+        "subtopics": [
+          {
+            "name": "Network Layer",
+            "documentation": "https://example.com/network-layer-doc",
+            "questions": "https://example.com/network-layer-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Transport Layer",
+            "documentation": "https://example.com/transport-layer-doc",
+            "questions": "https://example.com/transport-layer-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Application Layer",
+            "documentation": "https://example.com/application-layer-doc",
+            "questions": "https://example.com/application-layer-questions",
+            "estimated_time": 1
+          }
+        ]
+      },
+      {
+        "topic": "Compiler Design",
+        "subtopics": [
+          {
+            "name": "Lexical Analysis",
+            "documentation": "https://example.com/lexical-analysis-doc",
+            "questions": "https://example.com/lexical-analysis-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Parsing",
+            "documentation": "https://example.com/parsing-doc",
+            "questions": "https://example.com/parsing-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Optimization",
+            "documentation": "https://example.com/optimization-doc",
+            "questions": "https://example.com/optimization-questions",
+            "estimated_time": 1
+          }
+        ]
+      }
+    ]
+  },
+  "machine learning": {
+    "beginner": [
+      {
+        "topic": "Introduction to ML",
+        "subtopics": [
+          {
+            "name": "What is ML?",
+            "documentation": "https://example.com/what-is-ml?-doc",
+            "questions": "https://example.com/what-is-ml?-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Types of ML",
+            "documentation": "https://example.com/types-of-ml-doc",
+            "questions": "https://example.com/types-of-ml-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Applications",
+            "documentation": "https://example.com/applications-doc",
+            "questions": "https://example.com/applications-questions",
+            "estimated_time": 1
+          }
+        ]
+      },
+      {
+        "topic": "Data Preprocessing",
+        "subtopics": [
+          {
+            "name": "Data Cleaning",
+            "documentation": "https://example.com/data-cleaning-doc",
+            "questions": "https://example.com/data-cleaning-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Feature Scaling",
+            "documentation": "https://example.com/feature-scaling-doc",
+            "questions": "https://example.com/feature-scaling-questions",
+            "estimated_time": 2
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "topic": "Supervised Learning",
+        "subtopics": [
+          {
+            "name": "Linear Regression",
+            "documentation": "https://example.com/linear-regression-doc",
+            "questions": "https://example.com/linear-regression-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Logistic Regression",
+            "documentation": "https://example.com/logistic-regression-doc",
+            "questions": "https://example.com/logistic-regression-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Decision Trees",
+            "documentation": "https://example.com/decision-trees-doc",
+            "questions": "https://example.com/decision-trees-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Unsupervised Learning",
+        "subtopics": [
+          {
+            "name": "Clustering",
+            "documentation": "https://example.com/clustering-doc",
+            "questions": "https://example.com/clustering-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Dimensionality Reduction",
+            "documentation": "https://example.com/dimensionality-reduction-doc",
+            "questions": "https://example.com/dimensionality-reduction-questions",
+            "estimated_time": 3
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "topic": "Deep Learning",
+        "subtopics": [
+          {
+            "name": "Neural Networks",
+            "documentation": "https://example.com/neural-networks-doc",
+            "questions": "https://example.com/neural-networks-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "CNN",
+            "documentation": "https://example.com/cnn-doc",
+            "questions": "https://example.com/cnn-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "RNN",
+            "documentation": "https://example.com/rnn-doc",
+            "questions": "https://example.com/rnn-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Transformers",
+            "documentation": "https://example.com/transformers-doc",
+            "questions": "https://example.com/transformers-questions",
+            "estimated_time": 1
+          }
+        ]
+      },
+      {
+        "topic": "Reinforcement Learning",
+        "subtopics": [
+          {
+            "name": "Q-Learning",
+            "documentation": "https://example.com/q-learning-doc",
+            "questions": "https://example.com/q-learning-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Policy Gradient",
+            "documentation": "https://example.com/policy-gradient-doc",
+            "questions": "https://example.com/policy-gradient-questions",
+            "estimated_time": 2
+          }
+        ]
+      }
+    ]
+  },
+  "web development": {
+    "beginner": [
+      {
+        "topic": "HTML & CSS",
+        "subtopics": [
+          {
+            "name": "HTML Basics",
+            "documentation": "https://example.com/html-basics-doc",
+            "questions": "https://example.com/html-basics-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "CSS Basics",
+            "documentation": "https://example.com/css-basics-doc",
+            "questions": "https://example.com/css-basics-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Responsive Design",
+            "documentation": "https://example.com/responsive-design-doc",
+            "questions": "https://example.com/responsive-design-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "JavaScript",
+        "subtopics": [
+          {
+            "name": "JS Basics",
+            "documentation": "https://example.com/js-basics-doc",
+            "questions": "https://example.com/js-basics-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "DOM Manipulation",
+            "documentation": "https://example.com/dom-manipulation-doc",
+            "questions": "https://example.com/dom-manipulation-questions",
+            "estimated_time": 2
+          }
+        ]
+      }
+    ],
+    "intermediate": [
+      {
+        "topic": "Frontend Frameworks",
+        "subtopics": [
+          {
+            "name": "React",
+            "documentation": "https://example.com/react-doc",
+            "questions": "https://example.com/react-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Vue",
+            "documentation": "https://example.com/vue-doc",
+            "questions": "https://example.com/vue-questions",
+            "estimated_time": 3
+          },
+          {
+            "name": "Angular",
+            "documentation": "https://example.com/angular-doc",
+            "questions": "https://example.com/angular-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Backend Development",
+        "subtopics": [
+          {
+            "name": "Node.js",
+            "documentation": "https://example.com/node.js-doc",
+            "questions": "https://example.com/node.js-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Express.js",
+            "documentation": "https://example.com/express.js-doc",
+            "questions": "https://example.com/express.js-questions",
+            "estimated_time": 2
+          },
+          {
+            "name": "Django",
+            "documentation": "https://example.com/django-doc",
+            "questions": "https://example.com/django-questions",
+            "estimated_time": 1
+          }
+        ]
+      }
+    ],
+    "advanced": [
+      {
+        "topic": "Full Stack Development",
+        "subtopics": [
+          {
+            "name": "MERN Stack",
+            "documentation": "https://example.com/mern-stack-doc",
+            "questions": "https://example.com/mern-stack-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "MEAN Stack",
+            "documentation": "https://example.com/mean-stack-doc",
+            "questions": "https://example.com/mean-stack-questions",
+            "estimated_time": 3
+          }
+        ]
+      },
+      {
+        "topic": "Scalability & Security",
+        "subtopics": [
+          {
+            "name": "Database Scaling",
+            "documentation": "https://example.com/database-scaling-doc",
+            "questions": "https://example.com/database-scaling-questions",
+            "estimated_time": 1
+          },
+          {
+            "name": "Web Security",
+            "documentation": "https://example.com/web-security-doc",
+            "questions": "https://example.com/web-security-questions",
+            "estimated_time": 3
+          }
+        ]
+      }
+    ]
+  }
+}

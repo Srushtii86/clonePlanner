@@ -1,0 +1,703 @@
+{
+  "3": {
+    "goals": [
+      "gate",
+      "placements",
+      "web development",
+      "machine learning"
+    ],
+    "priority": {
+      "gate": 1,
+      "placements": 1,
+      "web development": 1,
+      "machine learning": 3
+    },
+    "level": {
+      "gate": "beginner",
+      "placements": "advanced",
+      "web development": "intermediate",
+      "machine learning": "advanced"
+    },
+    "days_left": 30,
+    "hours_per_day": 5,
+    "completed": {
+      "gate": [],
+      "placements": [],
+      "web development": [],
+      "machine learning": []
+    },
+    "progress": {
+      "gate": {
+        "Mathematics": [
+          "Linear Algebra",
+          "Probability"
+        ],
+        "Programming": [
+          "Data Structures"
+        ],
+        "Theory of Computation": [],
+        "Operating Systems": [],
+        "Computer Networks": []
+      },
+      "placements": {},
+      "web development": {},
+      "machine learning": {
+        "Introduction to ML": [
+          "What is ML?",
+          "Types of ML",
+          "Applications"
+        ],
+        "Data Preprocessing": [
+          "Data Cleaning",
+          "Feature Scaling"
+        ],
+        "Supervised Learning": [
+          "Linear Regression",
+          "Logistic Regression",
+          "Decision Trees"
+        ],
+        "Unsupervised Learning": [
+          "Clustering",
+          "Dimensionality Reduction"
+        ],
+        "Deep Learning": [
+          "CNN",
+          "RNN",
+          "Transformers"
+        ],
+        "Reinforcement Learning": [
+          "Policy Gradient"
+        ]
+      }
+    },
+    "day": 8,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "machine learning",
+          "topic": "Introduction to ML",
+          "subtopic": "What is ML?",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/what-is-ml?-doc",
+          "questions": "https://example.com/what-is-ml?-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Introduction to ML",
+          "subtopic": "Types of ML",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/types-of-ml-doc",
+          "questions": "https://example.com/types-of-ml-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Introduction to ML",
+          "subtopic": "Applications",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/applications-doc",
+          "questions": "https://example.com/applications-questions"
+        }
+      ],
+      "Day 2": [
+        {
+          "goal": "machine learning",
+          "topic": "Data Preprocessing",
+          "subtopic": "Data Cleaning",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/data-cleaning-doc",
+          "questions": "https://example.com/data-cleaning-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Data Preprocessing",
+          "subtopic": "Feature Scaling",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/feature-scaling-doc",
+          "questions": "https://example.com/feature-scaling-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Deep Learning",
+          "subtopic": "CNN",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/cnn-doc",
+          "questions": "https://example.com/cnn-questions"
+        }
+      ],
+      "Day 3": [
+        {
+          "goal": "machine learning",
+          "topic": "Supervised Learning",
+          "subtopic": "Linear Regression",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/linear-regression-doc",
+          "questions": "https://example.com/linear-regression-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Deep Learning",
+          "subtopic": "RNN",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/rnn-doc",
+          "questions": "https://example.com/rnn-questions"
+        }
+      ],
+      "Day 4": [
+        {
+          "goal": "machine learning",
+          "topic": "Supervised Learning",
+          "subtopic": "Logistic Regression",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/logistic-regression-doc",
+          "questions": "https://example.com/logistic-regression-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Deep Learning",
+          "subtopic": "Transformers",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/transformers-doc",
+          "questions": "https://example.com/transformers-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Data Structures",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/data-structures-doc",
+          "questions": "https://example.com/data-structures-questions"
+        }
+      ],
+      "Day 5": [
+        {
+          "goal": "machine learning",
+          "topic": "Supervised Learning",
+          "subtopic": "Decision Trees",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/decision-trees-doc",
+          "questions": "https://example.com/decision-trees-questions"
+        },
+        {
+          "goal": "machine learning",
+          "topic": "Reinforcement Learning",
+          "subtopic": "Policy Gradient",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/policy-gradient-doc",
+          "questions": "https://example.com/policy-gradient-questions"
+        }
+      ],
+      "Day 6": [
+        {
+          "goal": "machine learning",
+          "topic": "Unsupervised Learning",
+          "subtopic": "Clustering",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/clustering-doc",
+          "questions": "https://example.com/clustering-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Linear Algebra",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/linear-algebra-doc",
+          "questions": "https://example.com/linear-algebra-questions"
+        }
+      ],
+      "Day 7": [
+        {
+          "goal": "machine learning",
+          "topic": "Unsupervised Learning",
+          "subtopic": "Dimensionality Reduction",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/dimensionality-reduction-doc",
+          "questions": "https://example.com/dimensionality-reduction-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Probability",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/probability-doc",
+          "questions": "https://example.com/probability-questions"
+        }
+      ],
+      "Day 8": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Discrete Math",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/discrete-math-doc",
+          "questions": "https://example.com/discrete-math-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Algorithms",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/algorithms-doc",
+          "questions": "https://example.com/algorithms-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Network Layer",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/network-layer-doc",
+          "questions": "https://example.com/network-layer-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  },
+  "1": {
+    "goals": [
+      "gate",
+      "placements"
+    ],
+    "priority": {
+      "gate": 2,
+      "placements": 2
+    },
+    "level": {
+      "gate": "advanced",
+      "placements": "beginner"
+    },
+    "days_left": 30,
+    "hours_per_day": 5,
+    "completed": {
+      "gate": [],
+      "placements": []
+    },
+    "progress": {
+      "gate": {
+        "Mathematics": [
+          "Linear Algebra",
+          "Probability",
+          "Discrete Math"
+        ],
+        "Programming": [
+          "Data Structures",
+          "Algorithms",
+          "C Basics"
+        ],
+        "Theory of Computation": [
+          "Turing Machines",
+          "Finite Automata",
+          "Regular Expressions"
+        ],
+        "Operating Systems": [
+          "Process Management",
+          "Memory Management",
+          "File Systems"
+        ],
+        "Computer Networks": [
+          "Network Layer",
+          "Transport Layer"
+        ]
+      },
+      "placements": {
+        "Arrays": [],
+        "Linked Lists": []
+      }
+    },
+    "day": 7,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Linear Algebra",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/linear-algebra-doc",
+          "questions": "https://example.com/linear-algebra-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Probability",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/probability-doc",
+          "questions": "https://example.com/probability-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Data Structures",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/data-structures-doc",
+          "questions": "https://example.com/data-structures-questions"
+        }
+      ],
+      "Day 2": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Discrete Math",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/discrete-math-doc",
+          "questions": "https://example.com/discrete-math-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Algorithms",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/algorithms-doc",
+          "questions": "https://example.com/algorithms-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Network Layer",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/network-layer-doc",
+          "questions": "https://example.com/network-layer-questions"
+        }
+      ],
+      "Day 3": [
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "C Basics",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/c-basics-doc",
+          "questions": "https://example.com/c-basics-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Turing Machines",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/turing-machines-doc",
+          "questions": "https://example.com/turing-machines-questions"
+        }
+      ],
+      "Day 4": [
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Finite Automata",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/finite-automata-doc",
+          "questions": "https://example.com/finite-automata-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "Process Management",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/process-management-doc",
+          "questions": "https://example.com/process-management-questions"
+        }
+      ],
+      "Day 5": [
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Regular Expressions",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/regular-expressions-doc",
+          "questions": "https://example.com/regular-expressions-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "Memory Management",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/memory-management-doc",
+          "questions": "https://example.com/memory-management-questions"
+        }
+      ],
+      "Day 6": [
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "File Systems",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/file-systems-doc",
+          "questions": "https://example.com/file-systems-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Transport Layer",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/transport-layer-doc",
+          "questions": "https://example.com/transport-layer-questions"
+        }
+      ],
+      "Day 7": [
+        {
+          "goal": "placements",
+          "topic": "Arrays",
+          "subtopic": "Basics",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/basics-doc",
+          "questions": "https://example.com/basics-questions"
+        },
+        {
+          "goal": "placements",
+          "topic": "Arrays",
+          "subtopic": "Operations",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/operations-doc",
+          "questions": "https://example.com/operations-questions"
+        },
+        {
+          "goal": "placements",
+          "topic": "Arrays",
+          "subtopic": "Sorting",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/sorting-doc",
+          "questions": "https://example.com/sorting-questions"
+        },
+        {
+          "goal": "placements",
+          "topic": "Linked Lists",
+          "subtopic": "Doubly Linked List",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/doubly-linked-list-doc",
+          "questions": "https://example.com/doubly-linked-list-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  },
+  "67e2c0b90776582fb03563e1": {
+    "goals": [
+      "placements",
+      "machine learning"
+    ],
+    "priority": {
+      "placements": "1",
+      "machine learning": "2"
+    },
+    "level": {
+      "placements": "beginner",
+      "machine learning": "intermediate"
+    },
+    "days_left": 40,
+    "hours_per_day": 4,
+    "completed": {
+      "placements": [],
+      "machine learning": []
+    },
+    "progress": {
+      "placements": {},
+      "machine learning": {}
+    },
+    "day": 1,
+    "history": {},
+    "pending_tasks": []
+  },
+  "67ea5df423c89c2849aa9939": {
+    "goals": [
+      "placements"
+    ],
+    "priority": {
+      "placements": "1"
+    },
+    "level": {
+      "placements": "beginner"
+    },
+    "days_left": 30,
+    "hours_per_day": 2,
+    "completed": {
+      "placements": []
+    },
+    "progress": {
+      "placements": {}
+    },
+    "day": 1,
+    "history": {},
+    "pending_tasks": []
+  },
+  "67f91017b875bd98d3870c18": {
+    "goals": [
+      "placements"
+    ],
+    "priority": {
+      "placements": "1",
+      "machine learning": "2",
+      "gate": "3"
+    },
+    "level": {
+      "placements": "beginner"
+    },
+    "days_left": 70,
+    "hours_per_day": 3,
+    "completed": {
+      "placements": []
+    },
+    "progress": {
+      "placements": {}
+    },
+    "day": 1,
+    "history": {},
+    "pending_tasks": []
+  },
+  "67fcbed914c6d56051526c32": {
+    "goals": [
+      "gate",
+      "web development"
+    ],
+    "priority": {
+      "gate": 1,
+      "web development": 2
+    },
+    "level": {
+      "gate": "beginner",
+      "web development": "beginner"
+    },
+    "days_left": 46,
+    "hours_per_day": 6,
+    "completed": {
+      "gate": [],
+      "web development": []
+    },
+    "progress": {
+      "gate": {},
+      "web development": {
+        "HTML & CSS": [],
+        "JavaScript": []
+      }
+    },
+    "day": 1,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "web development",
+          "topic": "HTML & CSS",
+          "subtopic": "HTML Basics",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/html-basics-doc",
+          "questions": "https://example.com/html-basics-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "HTML & CSS",
+          "subtopic": "CSS Basics",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/css-basics-doc",
+          "questions": "https://example.com/css-basics-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "JavaScript",
+          "subtopic": "DOM Manipulation",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/dom-manipulation-doc",
+          "questions": "https://example.com/dom-manipulation-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  },
+  "67fdef514b698796fef1c9dc": {
+    "goals": [
+      "machine learning",
+      "web development"
+    ],
+    "priority": {
+      "machine learning": 1,
+      "web development": 2
+    },
+    "level": {
+      "machine learning": "intermediate",
+      "web development": "beginner"
+    },
+    "days_left": 9,
+    "hours_per_day": 6,
+    "completed": {
+      "machine learning": [],
+      "web development": []
+    },
+    "progress": {
+      "machine learning": {},
+      "web development": {
+        "HTML & CSS": [],
+        "JavaScript": []
+      }
+    },
+    "day": 1,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "web development",
+          "topic": "HTML & CSS",
+          "subtopic": "HTML Basics",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/html-basics-doc",
+          "questions": "https://example.com/html-basics-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "HTML & CSS",
+          "subtopic": "CSS Basics",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/css-basics-doc",
+          "questions": "https://example.com/css-basics-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "JavaScript",
+          "subtopic": "DOM Manipulation",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/dom-manipulation-doc",
+          "questions": "https://example.com/dom-manipulation-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  },
+  "67fdfa59a292254df2aa4706": {
+    "goals": [
+      "gate",
+      "web development"
+    ],
+    "priority": {
+      "gate": 1,
+      "web development": 2
+    },
+    "level": {
+      "gate": "beginner",
+      "web development": "intermediate"
+    },
+    "days_left": 20,
+    "hours_per_day": 5,
+    "completed": {
+      "gate": [],
+      "web development": []
+    },
+    "progress": {
+      "gate": {},
+      "web development": {
+        "Frontend Frameworks": []
+      }
+    },
+    "day": 1,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "React",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/react-doc",
+          "questions": "https://example.com/react-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "Vue",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/vue-doc",
+          "questions": "https://example.com/vue-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  }
+}
