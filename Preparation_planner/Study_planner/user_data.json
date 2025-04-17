@@ -573,7 +573,8 @@
           "subtopic": "HTML Basics",
           "estimated_hours": 1,
           "documentation": "https://example.com/html-basics-doc",
-          "questions": "https://example.com/html-basics-questions"
+          "questions": "https://example.com/html-basics-questions",
+          "completed": true
         },
         {
           "goal": "web development",
@@ -581,7 +582,8 @@
           "subtopic": "CSS Basics",
           "estimated_hours": 3,
           "documentation": "https://example.com/css-basics-doc",
-          "questions": "https://example.com/css-basics-questions"
+          "questions": "https://example.com/css-basics-questions",
+          "completed": true
         },
         {
           "goal": "web development",
@@ -663,7 +665,7 @@
     },
     "level": {
       "gate": "beginner",
-      "web development": "intermediate"
+      "web development": "advanced"
     },
     "days_left": 20,
     "hours_per_day": 5,
@@ -672,14 +674,453 @@
       "web development": []
     },
     "progress": {
-      "gate": {},
+      "gate": {
+        "Mathematics": [
+          "Linear Algebra",
+          "Probability"
+        ],
+        "Programming": [
+          "Data Structures"
+        ],
+        "Theory of Computation": [],
+        "Operating Systems": [],
+        "Computer Networks": []
+      },
       "web development": {
-        "Frontend Frameworks": []
+        "Frontend Frameworks": [
+          "React",
+          "Vue",
+          "Angular"
+        ],
+        "Backend Development": [
+          "Node.js",
+          "Django",
+          "Express.js"
+        ],
+        "Full Stack Development": [
+          "MERN Stack",
+          "MEAN Stack"
+        ],
+        "Scalability & Security": [
+          "Database Scaling",
+          "Web Security"
+        ]
       }
     },
-    "day": 1,
+    "day": 9,
     "history": {
       "Day 1": [
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "React",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/react-doc",
+          "questions": "https://example.com/react-questions",
+          "completed": true
+        },
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "Vue",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/vue-doc",
+          "questions": "https://example.com/vue-questions",
+          "completed": true
+        }
+      ],
+      "Day 2": [
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "React",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/react-doc",
+          "questions": "https://example.com/react-questions",
+          "completed": true
+        },
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "Vue",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/vue-doc",
+          "questions": "https://example.com/vue-questions",
+          "completed": true
+        }
+      ],
+      "Day 3": [
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "Angular",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/angular-doc",
+          "questions": "https://example.com/angular-questions",
+          "completed": true
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Node.js",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/node.js-doc",
+          "questions": "https://example.com/node.js-questions",
+          "completed": true
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Django",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/django-doc",
+          "questions": "https://example.com/django-questions",
+          "completed": true
+        }
+      ],
+      "Day 4": [
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Express.js",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/express.js-doc",
+          "questions": "https://example.com/express.js-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Full Stack Development",
+          "subtopic": "MERN Stack",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/mern-stack-doc",
+          "questions": "https://example.com/mern-stack-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Scalability & Security",
+          "subtopic": "Database Scaling",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/database-scaling-doc",
+          "questions": "https://example.com/database-scaling-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Data Structures",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/data-structures-doc",
+          "questions": "https://example.com/data-structures-questions"
+        }
+      ],
+      "Day 5": [
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Express.js",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/express.js-doc",
+          "questions": "https://example.com/express.js-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Full Stack Development",
+          "subtopic": "MERN Stack",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/mern-stack-doc",
+          "questions": "https://example.com/mern-stack-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Scalability & Security",
+          "subtopic": "Database Scaling",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/database-scaling-doc",
+          "questions": "https://example.com/database-scaling-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Data Structures",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/data-structures-doc",
+          "questions": "https://example.com/data-structures-questions"
+        }
+      ],
+      "Day 6": [
+        {
+          "goal": "web development",
+          "topic": "Full Stack Development",
+          "subtopic": "MEAN Stack",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/mean-stack-doc",
+          "questions": "https://example.com/mean-stack-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Linear Algebra",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/linear-algebra-doc",
+          "questions": "https://example.com/linear-algebra-questions"
+        }
+      ],
+      "Day 7": [
+        {
+          "goal": "web development",
+          "topic": "Scalability & Security",
+          "subtopic": "Web Security",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/web-security-doc",
+          "questions": "https://example.com/web-security-questions",
+          "completed": false
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Probability",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/probability-doc",
+          "questions": "https://example.com/probability-questions",
+          "completed": false
+        }
+      ],
+      "Day 8": [
+        {
+          "goal": "web development",
+          "topic": "Scalability & Security",
+          "subtopic": "Web Security",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/web-security-doc",
+          "questions": "https://example.com/web-security-questions",
+          "completed": false
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Probability",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/probability-doc",
+          "questions": "https://example.com/probability-questions",
+          "completed": false
+        }
+      ],
+      "Day 9": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Discrete Math",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/discrete-math-doc",
+          "questions": "https://example.com/discrete-math-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Algorithms",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/algorithms-doc",
+          "questions": "https://example.com/algorithms-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Network Layer",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/network-layer-doc",
+          "questions": "https://example.com/network-layer-questions"
+        }
+      ]
+    },
+    "pending_tasks": []
+  },
+  "67ffb81582770d85b4c38496": {
+    "goals": [
+      "machine learning",
+      "web development",
+      "gate"
+    ],
+    "priority": {
+      "machine learning": 1,
+      "web development": 2,
+      "gate": 3
+    },
+    "level": {
+      "machine learning": "intermediate",
+      "web development": "intermediate",
+      "gate": "advanced"
+    },
+    "days_left": 70,
+    "hours_per_day": 5,
+    "completed": {
+      "machine learning": [],
+      "web development": [],
+      "gate": []
+    },
+    "progress": {
+      "machine learning": {},
+      "web development": {
+        "Frontend Frameworks": [
+          "React",
+          "Vue",
+          "Angular"
+        ],
+        "Backend Development": [],
+        "Full Stack Development": []
+      },
+      "gate": {
+        "Mathematics": [
+          "Linear Algebra",
+          "Probability",
+          "Discrete Math"
+        ],
+        "Programming": [
+          "Data Structures",
+          "Algorithms",
+          "C Basics"
+        ],
+        "Theory of Computation": [
+          "Turing Machines",
+          "Finite Automata",
+          "Regular Expressions"
+        ],
+        "Operating Systems": [
+          "Process Management",
+          "Memory Management",
+          "File Systems"
+        ],
+        "Computer Networks": [
+          "Network Layer",
+          "Transport Layer"
+        ]
+      }
+    },
+    "day": 9,
+    "history": {
+      "Day 1": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Linear Algebra",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/linear-algebra-doc",
+          "questions": "https://example.com/linear-algebra-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Probability",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/probability-doc",
+          "questions": "https://example.com/probability-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Data Structures",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/data-structures-doc",
+          "questions": "https://example.com/data-structures-questions"
+        }
+      ],
+      "Day 2": [
+        {
+          "goal": "gate",
+          "topic": "Mathematics",
+          "subtopic": "Discrete Math",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/discrete-math-doc",
+          "questions": "https://example.com/discrete-math-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "Algorithms",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/algorithms-doc",
+          "questions": "https://example.com/algorithms-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Network Layer",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/network-layer-doc",
+          "questions": "https://example.com/network-layer-questions"
+        }
+      ],
+      "Day 3": [
+        {
+          "goal": "gate",
+          "topic": "Programming",
+          "subtopic": "C Basics",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/c-basics-doc",
+          "questions": "https://example.com/c-basics-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Turing Machines",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/turing-machines-doc",
+          "questions": "https://example.com/turing-machines-questions"
+        }
+      ],
+      "Day 4": [
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Finite Automata",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/finite-automata-doc",
+          "questions": "https://example.com/finite-automata-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "Process Management",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/process-management-doc",
+          "questions": "https://example.com/process-management-questions"
+        }
+      ],
+      "Day 5": [
+        {
+          "goal": "gate",
+          "topic": "Theory of Computation",
+          "subtopic": "Regular Expressions",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/regular-expressions-doc",
+          "questions": "https://example.com/regular-expressions-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "Memory Management",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/memory-management-doc",
+          "questions": "https://example.com/memory-management-questions"
+        }
+      ],
+      "Day 6": [
+        {
+          "goal": "gate",
+          "topic": "Operating Systems",
+          "subtopic": "File Systems",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/file-systems-doc",
+          "questions": "https://example.com/file-systems-questions"
+        },
+        {
+          "goal": "gate",
+          "topic": "Computer Networks",
+          "subtopic": "Transport Layer",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/transport-layer-doc",
+          "questions": "https://example.com/transport-layer-questions"
+        }
+      ],
+      "Day 7": [
         {
           "goal": "web development",
           "topic": "Frontend Frameworks",
@@ -695,6 +1136,66 @@
           "estimated_hours": 3,
           "documentation": "https://example.com/vue-doc",
           "questions": "https://example.com/vue-questions"
+        }
+      ],
+      "Day 8": [
+        {
+          "goal": "web development",
+          "topic": "Frontend Frameworks",
+          "subtopic": "Angular",
+          "estimated_hours": 3,
+          "documentation": "https://example.com/angular-doc",
+          "questions": "https://example.com/angular-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Node.js",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/node.js-doc",
+          "questions": "https://example.com/node.js-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Django",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/django-doc",
+          "questions": "https://example.com/django-questions"
+        }
+      ],
+      "Day 9": [
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Node.js",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/node.js-doc",
+          "questions": "https://example.com/node.js-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Django",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/django-doc",
+          "questions": "https://example.com/django-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Backend Development",
+          "subtopic": "Express.js",
+          "estimated_hours": 2,
+          "documentation": "https://example.com/express.js-doc",
+          "questions": "https://example.com/express.js-questions"
+        },
+        {
+          "goal": "web development",
+          "topic": "Full Stack Development",
+          "subtopic": "MERN Stack",
+          "estimated_hours": 1,
+          "documentation": "https://example.com/mern-stack-doc",
+          "questions": "https://example.com/mern-stack-questions"
         }
       ]
     },

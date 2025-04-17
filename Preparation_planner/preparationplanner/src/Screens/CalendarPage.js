@@ -8,6 +8,7 @@ import {
   Chip,
   CircularProgress,
   Checkbox,
+  Button,
 } from "@mui/material";
 
 const CalendarPage = () => {
@@ -41,6 +42,38 @@ const CalendarPage = () => {
       });
   }, []);
 
+  const handleGenerateNextPlan = async () => {
+    const storedUser = JSON.parse(localStorage.getItem("user"));
+    const userId = storedUser?._id;
+    
+    if (!userId) return alert("User not found");
+  
+    try {
+      const response = await fetch('http://localhost:5001/generate_next_day_plan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          user_id: userId,
+          completed_indices: selectedTasks
+        })
+      });
+  
+      const data = await response.json();
+  
+      if (response.ok) {
+        alert("🎯 Plan generated for tomorrow!");
+        console.log("Next day plan:", data.day_plan);
+        setSelectedTasks([]); // clear checked after success
+      } else {
+        alert(`❌ Error: ${data.error}`);
+      }
+    } catch (error) {
+      console.error("Failed to generate plan:", error);
+    }
+  };
+  
+  
+  
   if (loading) {
     return (
       <Box
@@ -82,49 +115,6 @@ const CalendarPage = () => {
           justifyContent="center"
           sx={{ width: "90%", maxWidth: "1200px" }}
         >
-          {/* {tasks.map((task, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
-              <Card
-                sx={{
-                  borderRadius: "20px",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
-                  backgroundColor: "#ffffff",
-                }}
-              >
-                <CardContent>
-                  <Typography variant="h6" gutterBottom>
-                    {task.goal}
-                  </Typography>
-                  <Typography variant="subtitle1" color="text.secondary">
-                    Topic: {task.topic}
-                  </Typography>
-                  <Typography variant="subtitle2" color="text.secondary">
-                    Subtopic: {task.subtopic}
-                  </Typography>
-                  <Chip label={`⏳ ${task.estimated_hours} hrs`} sx={{ mt: 1 }} />
-
-                  <Box mt={2}>
-                    <a
-                      href={task.documentation}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <Chip label="📄 Documentation" clickable color="primary" sx={{ mr: 1 }} />
-                    </a>
-                    <a
-                      href={task.questions}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ textDecoration: "none" }}
-                    >
-                      <Chip label="🧠 Practice" clickable color="secondary" />
-                    </a>
-                  </Box>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))} */}
           {tasks.map((task, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <Card
@@ -193,6 +183,14 @@ const CalendarPage = () => {
           ))}
         </Grid>
       )}
+      <Button
+        variant="contained"
+        color="primary"
+        style={{ marginTop: "20px" }}
+        onClick={handleGenerateNextPlan}
+      >
+        🚀 Plan Tomorrow's Success
+      </Button>
     </Box>
   );
 };

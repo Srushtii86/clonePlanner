@@ -1,15 +1,27 @@
 import React, { useState } from "react";
-import { Button, TextField, Box, Typography, Container } from "@mui/material";
+import {
+  Button,
+  TextField,
+  Box,
+  Typography,
+  Container,
+  Snackbar,
+  Alert,
+} from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import bgImage from "../Images/loginbg.png"; // Ensure this matches the actual file path
+import bgImage from "../Images/loginbg.png";
 
-export default function Signup() {  
+export default function Signup() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [snackbarSeverity, setSnackbarSeverity] = useState("success"); // "success" | "error"
 
-  const handleSignup = async () => {
+  const handleSignup = async (e) => {
+    e.preventDefault();
     try {
       const response = await fetch("http://localhost:5000/api/auth/signup", {
         method: "POST",
@@ -19,13 +31,30 @@ export default function Signup() {
         body: JSON.stringify({ name, email, password }),
       });
 
-      if (!response.ok) {
-        throw new Error("Signup failed");
-      }
+      const data = await response.json();
 
-      console.log("Signup successful");
+      if (!response.ok) {
+        setSnackbarSeverity("error");
+        setSnackbarMessage(data.message || "Signup failed");
+        setSnackbarOpen(true);
+        return;
+        //throw new Error("Signup failed");
+      }
+      setSnackbarSeverity("success");
+      setSnackbarMessage("Signup successful! Redirecting to login...");
+      setSnackbarOpen(true);
+      setName("");
+      setEmail("");
+      setPassword("");
+      // Delay navigation to show Snackbar
+      setTimeout(() => {
+        navigate("/login");
+      }, 1500);
     } catch (error) {
       console.error("Error:", error);
+      setSnackbarSeverity("error");
+      setSnackbarMessage("Signup failed. Please try again.");
+      setSnackbarOpen(true);
     }
   };
   return (
@@ -76,7 +105,12 @@ export default function Signup() {
           >
             Sign Up
           </Typography>
-          <Box component="form" noValidate sx={{ mt: 1 }} onSubmit={handleSignup}>
+          <Box
+            component="form"
+            noValidate
+            sx={{ mt: 1 }}
+            onSubmit={handleSignup}
+          >
             <TextField
               fullWidth
               required
@@ -127,6 +161,22 @@ export default function Signup() {
           </Box>
         </Box>
       </Container>
+
+      {/* Snackbar Component */}
+      <Snackbar
+        open={snackbarOpen}
+        autoHideDuration={3000}
+        onClose={() => setSnackbarOpen(false)}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      >
+        <Alert
+          onClose={() => setSnackbarOpen(false)}
+          severity={snackbarSeverity}
+          sx={{ width: "100%" }}
+        >
+          {snackbarMessage}
+        </Alert>
+      </Snackbar>
     </Box>
   );
 }
