@@ -26,11 +26,12 @@ class StudyPlanner:
         else:
             raise ValueError("User not found")
 
-    def register_user(self, user_id, goals, goals_with_priority, days_left, hours_per_day, user_levels=None):
+    def register_user(self, user_id, goals, goals_with_priority, days_left, hours_per_day, user_levels=None, starting_levels=None):
         self.users[user_id] = {
             "goals": goals,
             "priority": goals_with_priority,
             "level": {goal: user_levels.get(goal, "beginner") for goal in goals},
+            "starting_levels": starting_levels or user_levels,  # ✅ Store separately
             "days_left": days_left,
             "hours_per_day": hours_per_day,
             "completed": {goal: [] for goal in goals},

@@ -33,9 +33,22 @@ const CalendarPage = () => {
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched tasks:", data);
-        setTasks(data);
+
+        // ✅ Filter out duplicates based on goal + topic + subtopic
+        const seen = new Set();
+        const uniqueTasks = data.filter((task) => {
+          const key = `${task.goal}-${task.topic}-${task.subtopic}`;
+          if (seen.has(key)) {
+            return false;
+          }
+          seen.add(key);
+          return true;
+        });
+
+        setTasks(uniqueTasks);
         setLoading(false);
       })
+
       .catch((err) => {
         console.error("Error fetching tasks:", err);
         setLoading(false);
@@ -45,25 +58,33 @@ const CalendarPage = () => {
   const handleGenerateNextPlan = async () => {
     const storedUser = JSON.parse(localStorage.getItem("user"));
     const userId = storedUser?._id;
-    
+
     if (!userId) return alert("User not found");
-  
+
     try {
-      const response = await fetch('http://localhost:5001/generate_next_day_plan', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          user_id: userId,
-          completed_indices: selectedTasks
-        })
-      });
-  
+      const response = await fetch(
+        "http://localhost:5001/generate_next_day_plan",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            user_id: userId,
+            completed_indices: selectedTasks,
+          }),
+        }
+      );
+
       const data = await response.json();
-  
+
       if (response.ok) {
         alert("🎯 Plan generated for tomorrow!");
         console.log("Next day plan:", data.day_plan);
         setSelectedTasks([]); // clear checked after success
+        fetch(`http://localhost:5001/tasks/${userId}`)
+          .then((res) => res.json())
+          .then((newData) => {
+            setTasks(newData);
+          });
       } else {
         alert(`❌ Error: ${data.error}`);
       }
@@ -71,9 +92,7 @@ const CalendarPage = () => {
       console.error("Failed to generate plan:", error);
     }
   };
-  
-  
-  
+
   if (loading) {
     return (
       <Box
@@ -189,7 +208,7 @@ const CalendarPage = () => {
         style={{ marginTop: "20px" }}
         onClick={handleGenerateNextPlan}
       >
-        🚀 Plan Tomorrow's Success
+        🚀 Generate Tomorrow's Plan
       </Button>
     </Box>
   );
